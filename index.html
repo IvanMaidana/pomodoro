@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Timer Pomodoro</title>
+</head>
+<body>
+    <main>
+        <div id="timer">
+            <span class="minutes">50</span>
+            <span>:</span>
+            <span class="seconds">00</span>
+        </div>
+        <div id="controls">
+            <button id="pause" class="hide"> <img src="./images/pausa.png" alt="Botao de play do relogio"></button>
+            <button id="play"> <img src="./images/botao-play.png" alt="Botao de pausa do relogio"></button>
+            <button id="stop" class="hide"> <img src="./images/stop-button_71563.png" alt="Botao stop do relogio"></button>
+            <button id="set" > <img src="./images/relogio.png" alt="Botao de confiração do relogio"></button>
+        </div>
+    </main>
+    <footer>
+        <button class="sound-on hide"> <img src="./images/alto-falante.png" alt="Botao auto falante"> </button>
+        <button class="sound-off"> <img src="./images/sem-som.png" alt="Botao fechar o alto falante"></button>
+    </footer>
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>

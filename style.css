@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --bg-color: #121214;
+    --color-button: #42d3ff;
+    --text-color: #ffffff;
+}
+
+body{
+    background-color:  var(--bg-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color)
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 2rem;
+}
+
+
+
+#timer span{
+    font-size: 10rem;
+}
+
+
+button{
+    border: none;
+    background-color:var(--color-button);
+    cursor: pointer;
+    padding: 5px;
+}
+
+#controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--color-button);
+    padding: 0 50px;
+    border-radius: 9999px;
+    gap: 10px;
+    width: clamp(28rem, 10rem + 30vw, 35rem);  /* estabeleço o min, o ideal, e o max*/
+}
+
+#controls button img{
+    height: 8rem;
+}
+
+footer button{
+    border-radius: 2rem;
+}
+
+footer button img{
+    height: 8rem;
+}
+
+.hide{
+    display: none;
+}
+
